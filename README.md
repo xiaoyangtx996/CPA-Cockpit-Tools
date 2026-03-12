@@ -1,8 +1,8 @@
-# CPA-Cockpit Tools
+<img width="802" height="732" alt="image" src="https://github.com/user-attachments/assets/1d0442f3-ee99-431d-95c1-4a7d9a8eac47" /># CPA-Cockpit Tools
 
 本项目是一个本地桌面工具（Tauri + Vue），用于**CPA 侧账号/Token 的批量测试**与**配置/账号数据导出**，方便把 CPA 侧沉淀的数据整理后，交给 **cockpit-tools** 进一步管理与切换。
 
-![Uploading image.png…]()
+<img width="802" height="732" alt="Snipaste_2026-03-12_20-09-25" src="https://github.com/user-attachments/assets/41dd6e3c-80e2-4796-8c6e-b929a7edc5b2" />
 
 
 相关项目：
