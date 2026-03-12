@@ -2,6 +2,9 @@
 
 本项目是一个本地桌面工具（Tauri + Vue），用于**CPA 侧账号/Token 的批量测试**与**配置/账号数据导出**，方便把 CPA 侧沉淀的数据整理后，交给 **cockpit-tools** 进一步管理与切换。
 
+![Uploading image.png…]()
+
+
 相关项目：
 
 - CLIProxyAPI（CPA）：https://github.com/router-for-me/CLIProxyAPI
