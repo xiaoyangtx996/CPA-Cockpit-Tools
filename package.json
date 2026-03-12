@@ -1,0 +1,22 @@
+{
+  "name": "token-tool",
+  "version": "1.0.0",
+  "description": "Token工具 - 测试账号与脚本转换",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "dev:tauri": "powershell -NoProfile -ExecutionPolicy Bypass -Command \"$env:TAURI_DIR=(Resolve-Path 'src-tauri').Path; $env:CARGO_TARGET_DIR=(Resolve-Path 'src-tauri\\target').Path; npx tauri dev\"",
+    "build:tauri": "powershell -NoProfile -ExecutionPolicy Bypass -Command \"$env:TAURI_DIR=(Resolve-Path 'src-tauri').Path; $env:CARGO_TARGET_DIR=(Resolve-Path 'src-tauri\\target').Path; npx tauri build\"",
+    "tauri": "npx tauri"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^2.10.1",
+    "@tauri-apps/plugin-dialog": "^2.6.0",
+    "vue": "^3.4.0"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2.0.0",
+    "@vitejs/plugin-vue": "^5.0.0",
+    "vite": "^5.0.0"
+  }
+}
